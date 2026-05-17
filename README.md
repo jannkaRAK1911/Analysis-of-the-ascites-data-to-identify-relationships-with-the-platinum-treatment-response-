@@ -1,0 +1,2 @@
+# Analysis-of-the-ascites-data-to-identify-relationships-with-the-platinum-treatment-response-
+Analytical workflows in R for the prediction of chemotherapy response in ovarian cancer. The project integrates clinical data, extracellular vesicle proteomics, and flow cytometry data obtained from ascites. Using multinomial LASSO regression, it identifies key factors and their interactions associated with treatment outcome.
