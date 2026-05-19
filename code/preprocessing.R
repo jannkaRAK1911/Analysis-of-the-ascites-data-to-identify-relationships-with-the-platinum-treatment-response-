@@ -244,7 +244,7 @@ colnames(d1)[colnames(d1) == "245_NA"] <- "245_SE"
 # Save cleaned and harmonized proteomics dataset
 write.csv(
   d1,
-  here("outputs", "updated_proteinGroups_SEC_only.csv"),
+  here("outputs", "data-processing", "updated_proteinGroups_SEC_only.csv"),
   row.names = FALSE
 )
 
