@@ -41,9 +41,17 @@ To run this pipeline, you will need **R (version 4.5.2)**. You can install all r
 ```R
 required_packages <- c(
   "readxl", "janitor", "here", "dplyr", "tidyr", 
-  "compositions", "glmnet", "HGNChelper", "DEP", 
-  "patchwork", "ggplot2", "rmcorr", "ggprism", 
+  "compositions", "glmnet", "patchwork",
+  "ggplot2", "rmcorr", "ggprism", 
   "vegan", "ggpubr", "stringr", "tibble"
 )
 
 install.packages(setdiff(required_packages, installed.packages()[,"Package"]))
+```
+Packages HGNChelper and DEP can be installed using the following commands:
+
+```R
+if (!require("BiocManager"))
+    install.packages("BiocManager")
+
+BiocManager::install(c("HGNChelper", "DEP"))
