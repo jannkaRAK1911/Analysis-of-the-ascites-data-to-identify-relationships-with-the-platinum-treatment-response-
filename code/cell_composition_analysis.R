@@ -6,11 +6,6 @@
 ############################ LIBRARIES #########################################
 ################################################################################
 
-# Install required packages if needed
-# install.packages("rmcorr")
-# install.packages("ggprism")
-# install.packages("compositions")
-
 # Load libraries for data wrangling, visualization, compositional data analysis (CoDA), 
 # repeated measures correlation, and multivariate statistics.
 library(here)
