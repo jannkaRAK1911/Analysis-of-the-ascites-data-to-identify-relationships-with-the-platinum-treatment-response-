@@ -48,7 +48,7 @@ required_packages <- c(
 
 install.packages(setdiff(required_packages, installed.packages()[,"Package"]))
 ```
-Packages HGNChelper and DEP can be installed using the following commands:
+Packages `HGNChelper` and `DEP` can be installed using the following commands:
 
 ```R
 if (!require("BiocManager"))
