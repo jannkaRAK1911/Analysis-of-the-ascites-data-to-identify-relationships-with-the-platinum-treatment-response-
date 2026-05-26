@@ -3,7 +3,7 @@
 ################################################################################
 
 ################################################################################
-############################ LIBRARIES #########################################
+# LIBRARIES
 ################################################################################
 
 # Load libraries for data wrangling, visualization, compositional data analysis (CoDA), 
@@ -48,7 +48,7 @@ RNAseq_markers$cell.type[RNAseq_markers$cell.type == "CAFs"] <- "fibroblast"
 
 
 ######################################################################
-########### DATA PREPARATION FOR EV PROTEIN INTENSITIES ##############
+# DATA PREPARATION FOR EV PROTEIN INTENSITIES
 ######################################################################
 
 # Identify columns containing raw protein intensities ending with specific sample tags
@@ -95,7 +95,7 @@ SEC_long_intensity <- SEC_long_intensity %>%
 
 
 ######################################################################
-########### VISUALIZATION: EV-BASED COMPOSITION ######################
+# VISUALIZATION: EV-BASED COMPOSITION
 ######################################################################
 
 # Plot 1: Total relative cell type composition across all individual patients based on EV data
@@ -209,7 +209,7 @@ dev.off()
 
 
 ###################################################################
-######### STATISTICAL ANALYSIS & CODA TRANSFORMATIONS (EV) ########
+# STATISTICAL ANALYSIS & CODA TRANSFORMATIONS (EV)
 ###################################################################
 
 # Consolidate dynamic proportions for statistical testing
@@ -281,7 +281,7 @@ dev.off()
 
 
 ###########################################################################
-############## EXTENDED CELL TYPES ANALYSIS (FLOW CYTOMETRY DATA) #########
+# EXTENDED CELL TYPES ANALYSIS (FLOW CYTOMETRY DATA) 
 ###########################################################################
 
 # Load gold-standard profiling information acquired via Flow Cytometry (FC)
@@ -408,7 +408,7 @@ dev.off()
 
 
 ###################################################################
-######### STATISTICAL ANALYSIS & CODA TRANSFORMATIONS (FC) ########
+# STATISTICAL ANALYSIS & TRANSFORMATIONS (FC)
 ###################################################################
 
 # Apply compositional centered log-ratio (CLR) conversion to full flow cytometry arrays
@@ -470,7 +470,7 @@ dev.off()
 
 
 ###################################################################
-###### REPEATED MEASURES CORRELATION: FLOW CYTOMETRY VS EVS #######
+# REPEATED MEASURES CORRELATION: FLOW CYTOMETRY VS EVS 
 ###################################################################
 
 # Isolate matching major categories (Malignant, Fibroblast, Macrophage) from flow dataset
@@ -577,7 +577,7 @@ dev.off()
 
 
 ###################################################################
-######### MULTIVARIATE STATISTICS: PERMANOVA & PCA BLOCKS #########
+# MULTIVARIATE STATISTICS: PERMANOVA & PCA BLOCKS 
 ###################################################################
 
 ### 1. Analysis using All Flow Cytometry Cell Types (10 dimensions)
