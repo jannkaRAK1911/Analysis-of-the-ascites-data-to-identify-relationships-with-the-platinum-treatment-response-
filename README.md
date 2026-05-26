@@ -1,7 +1,7 @@
 # Analysis of the ascites data to identify relationships with the platinum treatment response
 Analytical workflows in R for the identification of factors associated with specific platinum-based chemotherapy response in ovarian cancer. The scripts integrate clinical data, extracellular vesicle proteomics, and flow cytometry data obtained from ascites. Using multinomial LASSO regression, it identifies key factors and their interactions associated with treatment outcome.
 
-## 📌 Pipeline Overview
+## Pipeline Overview
 The pipeline is divided into three main functional scripts:
 1. **Data Preprocessing & Gene Harmonization** (`preprocessing.R`)
 2. **Compositional Data Analysis & Multi-platform Validation** (`cell_composition_analysis.R`)
@@ -9,7 +9,7 @@ The pipeline is divided into three main functional scripts:
 
 ---
 
-## 📂 Repository Structure & Script Descriptions
+## Repository Structure & Script Descriptions
 
 ### 1. `preprocessing.R` (Initial Processing – Proteomics)
 This script handles the raw proteomics discovery data (MaxLFQ intensities) and performs rigorous quality control (QC) and biological identifier standardization.
@@ -34,7 +34,7 @@ This script builds a predictive model to identify which molecular (proteomic) an
 
 ---
 
-## 🛠️ Installation & Required Packages
+## Installation & Required Packages
 
 To run this pipeline, you will need **R (version 4.0 or higher)**. You can install all required dependencies by running the following snippet inside your R console:
 
