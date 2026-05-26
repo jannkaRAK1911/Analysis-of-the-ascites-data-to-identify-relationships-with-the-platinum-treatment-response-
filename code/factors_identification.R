@@ -6,11 +6,6 @@
 # 1. LIBRARIES
 #################################################################
 
-# Library installation if needed:
-install.packages("janitor")
-install.packages("glmnet")
-
-
 library(readxl)       # Read data from Excel files (.xlsx)
 library(janitor)      # Clean data column names (clean_names)
 library(here)         # Secure and robust relative file path management
