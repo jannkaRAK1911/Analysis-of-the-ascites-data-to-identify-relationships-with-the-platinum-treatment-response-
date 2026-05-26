@@ -36,7 +36,7 @@ This script builds a predictive model to identify which molecular (proteomic) an
 
 ## Installation & Required Packages
 
-To run this pipeline, you will need **R (version 4.0 or higher)**. You can install all required dependencies by running the following snippet inside your R console:
+To run this pipeline, you will need **R (version 4.5.2)**. You can install all required dependencies by running the following snippet inside your R console:
 
 ```R
 required_packages <- c(
